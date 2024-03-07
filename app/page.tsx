@@ -1,5 +1,13 @@
 import Image from "next/image";
 
+import { Metadata } from 'next'
+
+// either Static metadata
+export const metadata: Metadata = {
+  title: 'Home | JBay Padel',
+  description: 'JBay Padel at the Surf Village. Coming Soon!',
+}
+
 export default function Home() {
   return (
     <main className="flex justify-center items-center h-screen w-screen">
